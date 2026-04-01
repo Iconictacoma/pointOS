@@ -58,14 +58,14 @@ make clean
 - [x] Basic BIOS screen output
 - [x] Boot signature (0xAA55)
 
-### Phase 2: Kernel Loading ✓
+### Phase 2: Kernel Loading
 - [x] Switch to 32-bit protected mode
 - [x] Load kernel from disk (BIOS INT 0x13)
 - [x] Enable A20 line
 - [x] Load GDT
 - [x] Jump to kernel entry point
 
-### Phase 3: Core Kernel with UI ✓
+### Phase 3: Core Kernel with UI
 - [x] VGA text mode output
 - [x] Keyboard input handling
 - [x] IDT setup (interrupt descriptor table)
